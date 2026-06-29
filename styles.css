@@ -1,0 +1,61 @@
+.image-container {
+  display: flex;
+  gap: 15px;
+}
+
+.ended {
+ color: #820000;
+}
+
+.bad {
+ color: red;
+}
+
+.almost-bad {
+ color: orange;
+}
+
+.mild {
+ color: yellow;
+}
+
+.good {
+ color: #8cff00;
+}
+
+.high-quality {
+ color: #00ff00;
+}
+
+.image-container img {
+  width: 70px;
+  height: 70px;
+}
+body {
+  background-size: 1500px 706px;
+  background-image: url('Geometry.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p {
+  font-family:'Century Gothic';
+  color:black;
+  font-size: 16px;
+}
+h1, h2, h3, h4, li, td {
+  font-family:'Century Gothic';
+  color:black;
+}
+a:link {
+ font-family:'Century Gothic';
+ color:black;
+}
+a:visited {
+ font-family:'Century Gothic';
+ color:black;
+}
+p.double {border-style: double;}
+h1.double {border-style: double;}
+h2.double {border-style: double;}
+h3.double {border-style: double;}
+h4.double {border-style: double;}
