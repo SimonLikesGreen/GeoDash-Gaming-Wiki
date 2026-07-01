@@ -3,6 +3,12 @@
   gap: 15px;
 }
 
+@font-face {
+  font-family: Century Gohic; /* set name */
+  src: url(centurygothic.ttf); /* url of the font */
+}
+
+
 .ended {
  color: #820000;
 }
@@ -38,20 +44,20 @@ body {
   background-attachment: fixed;
 }
 p {
-  font-family:'Century Gothic';
+  font-family:'Century Gohic';
   color:black;
   font-size: 16px;
 }
 h1, h2, h3, h4, li, td {
-  font-family:'Century Gothic';
+  font-family:'Century Gohic';
   color:black;
 }
 a:link {
- font-family:'Century Gothic';
+ font-family:'Century Gohic';
  color:black;
 }
 a:visited {
- font-family:'Century Gothic';
+ font-family:'Century Gohic';
  color:black;
 }
 p.double {border-style: double;}
